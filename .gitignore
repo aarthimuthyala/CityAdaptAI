@@ -1,0 +1,93 @@
+##################################
+# ENVIRONMENT & SECRETS (CRITICAL)
+##################################
+.env
+.env.*
+backend/.env
+backend/.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.p8
+*.jks
+*.mobileprovision
+
+##################################
+# PYTHON BACKEND
+##################################
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+
+##################################
+# NODE / REACT NATIVE / EXPO
+##################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.expo/
+.expo-shared/
+expo-env.d.ts
+web-build/
+dist/
+build/
+
+##################################
+# MOBILE NATIVE BUILDS
+##################################
+ios/
+android/
+.kotlin/
+
+##################################
+# METRO / REACT CACHE
+##################################
+.metro-health-check*
+.cache/
+.parcel-cache/
+
+##################################
+# LOG FILES
+##################################
+*.log
+logs/
+
+##################################
+# OS FILES
+##################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+##################################
+# EDITORS & IDEs
+##################################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+##################################
+# TEST & TEMP FILES
+##################################
+*.orig
+*.tmp
+*.swp
+*.bak
+
+##################################
+# GIT
+##################################
+.gitignore~
+
